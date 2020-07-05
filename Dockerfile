@@ -5,6 +5,6 @@ RUN apt install -y ffmpeg
 
 COPY ffserver.conf /etc/ffserver.conf
 
-EXPOSE 80
+EXPOSE 5000
 
 ENTRYPOINT ["/usr/bin/ffserver"]
